@@ -18,12 +18,12 @@
 .flickr-class{
     width: 45px;
     height: 40px;
-    margin-top: 1.5vh;
+    margin-top: 0.8vh;
     margin-left:20vh;
 }
 .h1-class{
     font-family: 'Roboto', sans-serif;
-    padding-top: 1.5vh;
+    padding-top: 1.3vh;
     margin-left: 2px;
     font-size: 4vh;
 }
@@ -86,8 +86,8 @@ body{
 }
 .eye{
     position: absolute;
-    right: 765px;
-    top: 587px;
+    right: 37.7rem;
+    top: 25.8rem;
     cursor: pointer;
     color:lightgrey;
 }
@@ -126,12 +126,13 @@ form{
     padding-bottom: 10%;
 }
 .thi-class{
+    font-size:2vh;
     gap:10px;
     display:flex;
     color:white;
     margin-top: 1%;
     font-family: 'Roboto', sans-serif;
-    margin-left: 1010px;
+    margin-left: 789px;
     cursor: pointer;
 }
 .input1-class{
