@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(images/image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(nature1.jpeg);
+    }
+    20%
+    {
+        background-image: url(nature2.jpeg);
+    }
+    40%
+    {
+        background-image: url(nature3.jpg);
+    }
+    60%
+    {
+        background-image: url(nature4.webp);
+    }
+    80%
+    {
+        background-image: url(nature5.jpeg);
+    }
+    100%
+    {
+        background-image: url(nature6.webp);
+    }
+}
